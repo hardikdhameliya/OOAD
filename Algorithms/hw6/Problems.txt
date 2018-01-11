@@ -1,0 +1,5 @@
+(10 pts.) Give an example to show that Dijkstra's single-source-shortest-paths algorithm does not always work when there are negative weights.
+(10 pts.) Write a dynamic programming algorithm to solve the following variant of the coin change problem:
+input: integer amount n=0, coin denominations d[1..k], and available numbers of coins for each denomination a[1..k];
+
+output: the smallest number of coins in the given denominations whose total sum is nn, subject to the conditions that for 1<=i<=k, at most a[i] coins in denomination d[i] is used. If there is no solution, return INFINITY.

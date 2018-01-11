@@ -1,0 +1,18 @@
+(10 pts.) Give a divide-conquer algorithm to find the maximum of an array:
+input: an array A[lo..hi];
+
+output: the largest value in A[lo..hi].
+
+Find an asymptotic formula for the number of array element comparisons for your algorithm.
+
+(10 pts.) Give a divide-conquer algorithm for the following problem:
+input: an array A[lo..hi];
+
+output: the value that occurs strictly more than n2n2 times, where n = hi-lo+1 if it exists; otherwise return null.
+
+Find an asymptotic formula for the number of array element comparisons for your algorithm.
+
+(10 pts.) We investigate a variant of merge_sort which divides the array to be sorted into three thirds instead of two halves.
+Write a function merge3(A, lo, mid1, mid2, hi) that combines three sorted subarrays A[lo..mid1], A[mid1+1..mid2], A[mid2+1..hi] into a sorted array and puts the result back into A[lo..hi].
+Write a function merge_sort_3(A, lo, hi) that sorts an array by dividing it into approximately three equal thirds, recursively sorting each third, and combining the sorted subarrays into a sorted array.
+Analyze the asymptotic running time of your algorithm. Is it better than regular merge_sort ?

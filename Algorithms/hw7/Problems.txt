@@ -1,0 +1,11 @@
+(10 pts.) Give a dynamic-programming algorithm for the following variation of the movie selection problem:
+input: m movies [s1,f1,r1], ……, [sm,fm,rm] where si is the start time, fi is the finish time, and ri is the reward amount for movie i
+
+output: a nonoverlapping subset of the movies with the largest total reward.
+
+(10 pts.) Give a dynamic-programming algorithm for the following variation of the tower placement problem:
+input:
+
+n houses h1, ……, hn along a straight-line highway, where each house hi is represented by an integer position pi and a positive integer income amount ri;
+a positive integer distance D;
+output: the maximum total income obtained by placing cell-phone mini-towers on the roofs of the houses, subject to the restriction that towers must be separated by at least D miles.
