@@ -1,6 +1,0 @@
-Max Credit:
-10	10	
-Needed credit:
-2	8	
-Allocated credit:
-8	2	
